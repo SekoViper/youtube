@@ -5,14 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Microverse Media Player Project</title>
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    
+
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <section>
         <nav>
-            <div id="start"></div>
-            <div id="center"></div>
-            <div id="end"></div>
+            <div class="menu-item">
+                <span><i class="fa fa-bars"></i></span>
+                <div id="start">
+                    <img class="yt-logo" src="img/YouTube-Logo.wine.png" alt="">
+                </div>
+            </div>
+            <div id="center">
+                <form class="yt-search-form" action="">
+                    <div class="yt-search">
+                        <input type="text" placeholder="Search...">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                    <span class="mic-icon"><i class="fa fa-microphone"></i></span>
+                </form>
+            </div>
+            <div id="end">
+                <span><i class="ico fa fa-video"></i></span>
+                <span><i class="ico fa fa-bell"></i></span>
+                <span><i class="ico fa fa-user"></i></span>
+            </div>
         </nav>
     </section>
     <section>
@@ -21,5 +42,6 @@
             <div id="secondary"></div>
         </main>
     </section>
+<script src="https://kit.fontawesome.com/078a910440.js" crossorigin="anonymous"></script>
 </body>
 </html>
