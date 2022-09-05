@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav{
@@ -85,7 +86,6 @@ nav{
 }
 
 main{
-    background-color: aquamarine;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,13 +93,32 @@ main{
 }
 
 #primary{
-    background-color: blue;
-    height: 300px;
-    width: 45%;
+    width: 65%;
+}
+
+.yt-title{
+    line-height: 2.6rem;
+    font-weight: 400;
+    max-height: 5.2rem;
+    overflow: hidden;
+}
+
+.yt-video-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.yt-video-icons p{
+    font-size: 1.1rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+.yt-vd-icons{
+    padding: 10px;
 }
 
 #secondary{
     background-color: brown;
     height: 300px;
-    width: 33%;
+    width: 30%;
 }
