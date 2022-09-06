@@ -18,9 +18,6 @@ nav{
 .yt-search{
     position: relative;
     align-items: center;
-    /* background-color: rgb(255, 255, 255); */
-    /* border: 1px solid #d3d3d3; */
-    /* border-right: none; */
     border-radius: 2px 0 0 2px;
     padding: 2px 6px;
     margin-left: 34px;
@@ -72,7 +69,6 @@ nav{
     text-align: center;
     padding-top: 10px;
     border-radius: 50%;
-    /* height: 10px; */
 }
 
 .menu-item{
@@ -87,7 +83,6 @@ nav{
 
 main{
     display: flex;
-    align-items: center;
     justify-content: center;
     gap: 20px;
 }
@@ -118,7 +113,44 @@ main{
 }
 
 #secondary{
-    background-color: brown;
-    height: 300px;
     width: 30%;
+}
+
+.yt-suggested-videos{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.yt-suggested-videos img{
+    width: 168px;
+    height: 94px;
+}
+
+.yt-suggested-videos .ytv-title{
+   font-size: 1rem;
+   margin-bottom: 5px;
+}
+
+.yt-suggested-videos .ytv-account{
+   font-size: 13px;
+   margin-bottom: 2px;
+}
+
+.yt-suggested-videos .ytv-desc{
+   font-size: 13px;
+   margin-bottom: 5px;
+}
+
+.popular-video-btn{
+    padding: 0px 15px;
+    margin: 5px;
+    height: 32px;
+    border-radius: 16px;
+    border: 1px solid #d3d3d3;
+}
+.active{
+    background-color: black;
+    color: #d3d3d3;
 }
